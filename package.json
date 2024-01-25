@@ -1,10 +1,9 @@
 {
-  "name": "ts-land",
+  "name": "ts-template",
   "version": "1.0.0",
   "description": "Template for typescript node projects",
   "main": "dist/app.js",
-  "directories": {
-  },
+  "directories": {},
   "scripts": {
     "build": "rimraf dist && tsc",
     "build-all": "npm run build;",
@@ -24,7 +23,7 @@
   "author": "Andrew Xu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrxu/ts-land/issues"
+    "url": "https://github.com/andrxu/ts-template/issues"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
