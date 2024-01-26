@@ -1,5 +1,8 @@
-describe('add function', () => {
-    test('adds two numbers', () => {
-        expect(true).toBe(true);
-    });
+import { greet } from '../../src/app';
+
+describe('greet function', () => {
+  it('should return the correct greeting', () => {
+    const result = greet();
+    expect(result).toBe('Hello, TypeScript!');
+  });
 });

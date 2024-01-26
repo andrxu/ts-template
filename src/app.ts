@@ -1,2 +1,3 @@
-const message: string = 'Hello, TypeScript!';
-console.log(message);
+// app.ts
+export const greet = (): string => 'Hello, TypeScript!';
+console.log(greet());
